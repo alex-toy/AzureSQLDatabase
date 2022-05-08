@@ -15,7 +15,7 @@ az sql db create `
     --name $SQLBDName `
     --resource-group $RGName `
     --server $SQLServerName `
-    --tier Basic `
+    --tier $Tier `
     --verbose
 
 

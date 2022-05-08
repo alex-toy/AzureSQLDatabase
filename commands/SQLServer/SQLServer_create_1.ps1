@@ -1,4 +1,18 @@
 ################################################################
+# SQL database :
+
+$Global:SQLAdminUser = "alexadmin"
+$Global:SQLAdminPassword = "p@ssword1234"
+$Global:SQLServerName = "alexei-server-test2"
+$Global:SQLLocation = "francecentral"
+$Global:SQLEnablePublicNetwork = "true"
+$Global:SQLBDName = "alexei-db-test"
+$Global:FirewallRuleName = "azureaccess"
+$Global:ClientIPFirewallRuleName = "clientip"
+$Global:Tier = "Basic"
+
+
+################################################################
 #CREATE SQL SERVER :
 
 az sql server create `
